@@ -1,7 +1,7 @@
 # G404Error
 Free 404 Error Page
 
-G404Error is a HTML free template to create a minimalist professional 404 Error page. Made in HTML5 and CSS3 with a responsive design.
+G404Error is a HTML free template to create a minimalist 404 Error page. Made in HTML5 and CSS3 with a responsive design and incluye HTML5 Canvas Particle Animation with Javascript.
 
 ![G404Error](https://raw.githubusercontent.com/gndx/G404Error/master/screenshot.png)
 
@@ -14,19 +14,19 @@ Nib is a small and powerful library for the Stylus CSS language, providing robus
 $ npm install
 ```
 
-### Command to compile stylus:
+### Compile stylus:
 
 ```
 $ npm run stylus
 ```
 
-### Command to compile Javascript:
+### Compress Javascript:
 
 ```
 $ npm run compile
 ```
 
-### Command to Develop source code:
+### Live Reload:
 ```
 $ npm run start
 ```
