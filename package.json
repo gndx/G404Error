@@ -1,0 +1,33 @@
+{
+  "name": "error404page",
+  "version": "0.1.0",
+  "description": "simple error 404 page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files 'css/*.css', 'js/*.js', *.html",
+    "stylus": "stylus -u nib -w -o css/chewiekie.css index.styl",
+    "compile": "uglifyjs index.js -c -o js/bundle.js"
+  },
+  "author": "Oscar Barajas <oscar@dragons.mx>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "nib": "^1.1.2",
+    "stylus": "^0.54.5",
+    "uglify-js": "^3.3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gndx/G404Error.git"
+  },
+  "keywords": [
+    "404-error",
+    "404",
+    "html5"
+  ],
+  "bugs": {
+    "url": "https://github.com/gndx/G404Error/issues"
+  },
+  "homepage": "https://github.com/gndx/G404Error#readme"
+}
